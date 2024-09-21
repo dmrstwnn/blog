@@ -40,7 +40,7 @@
     </div>
     <footer>
         <p class="copyright">
-            Copyright © 2024 Made with <span>♥</span> Damar setiawan 
+            Copyright © 2024 Made with depie <span>♥</span> Damar setiawan 
         </p>
     </footer>
 </body>

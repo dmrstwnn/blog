@@ -3,6 +3,7 @@
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\LoginController;
 
 class Post
 {
@@ -46,8 +47,12 @@ Route::get('/home', function () {
 // });
 
 Route::get('/posts', [PostController::class, 'posts'])->name('posts');
+Route::get('/login', [LoginController::class, 'login'])->name('login');
+Route::get('/register', [LoginController::class, 'register'])->name('register');
 Route::get('/post/{id}', [PostController::class, 'post'])->name('post');
 Route::post('/addpost', [PostController::class, 'addpost'])->name('addpost');
+Route::post('/regist', [LoginController::class, 'regist'])->name('regist');
+Route::post('/postlogin', [LoginController::class, 'postlogin'])->name('postlogin');
 
 // Route::get('/posts/{id}', function($id) {
 

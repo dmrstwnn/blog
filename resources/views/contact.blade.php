@@ -1,4 +1,7 @@
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot:title>
-    <h3 class="text-xl">hal ASDG</h3>
+    
+        <h1>Halaman Kontak</h1>
+   
+    
   </x-layout>
