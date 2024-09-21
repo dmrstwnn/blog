@@ -38,6 +38,8 @@
             </div>
         </main>
     </div>
+
+    
     <footer>
         <p class="copyright">
             Copyright © 2024 Made with depie <span>♥</span> Damar setiawan 

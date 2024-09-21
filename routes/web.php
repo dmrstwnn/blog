@@ -82,3 +82,5 @@ Route::get('/articles/{article}/edit', [PostController::class, 'edit'])->name('a
 Route::put('/articles/{article}', [PostController::class, 'update'])->name('articles.update');
 
 Route::get('delete/{id}', [PostController::class, 'delete'])->name('delete');
+Route::post('/logout', [PostController::class, 'logout'])->name('logout');
+

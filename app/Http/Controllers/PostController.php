@@ -88,4 +88,10 @@ class PostController extends Controller
             $data->delete();
             return redirect()->route('posts');
         }
+
+        public function logout()
+    {
+        Auth::logout();
+        return redirect('/home');
+    }
 }
